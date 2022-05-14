@@ -20,7 +20,7 @@ provider "aws" {
 
 # 리소스의 "타입", "이름"
 resource "aws_instance" "app_server" {
-  ami           = "ami-033a6a056910d1137"
+  ami           = "ami-063454de5fe8eba79"
   instance_type = "t2.micro"
 
   tags = {
